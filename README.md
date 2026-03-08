@@ -6,7 +6,7 @@ If you want to try this project on your computer, follow these steps:
 
 Download this repository or clone it using Git:
 
-git clone https://github.com/vinay0011/openclaw-trade-replay-coach.git
+git clone https://github.com/vinay0011/openclaw-trade-coach.git
 
 ### 2. Open the project folder
 
@@ -14,7 +14,7 @@ Extract the files if you downloaded a ZIP, then open the project folder in a ter
 
 Example:
 
-cd openclaw-trade-replay-coach
+cd openclaw-trade-coach
 
 ### 3. Install required packages
 
