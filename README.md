@@ -1,31 +1,48 @@
-## OpenClaw Trade Replay Coach
+## Setup Guide (Run the Project Locally)
 
-OpenClaw Trade Replay Coach is a simple AI assistant that helps traders learn from their past trades.
+If you want to try this project on your computer, follow these steps:
 
-Instead of manually trying to figure out why a trade failed, the tool lets you select a previous trade, replay the chart, and get AI feedback on what happened. It looks at things like entry and exit timing, risk management decisions, and overall trade behavior.
+### 1. Download the project
 
-The idea is straightforward: every trade — especially losing ones — contains valuable lessons. This project tries to make those lessons easier to understand.
+Download this repository or clone it using Git:
 
-### What the assistant analyzes
+git clone https://github.com/your-username/openclaw-trade-replay-coach.git
 
-* Entry and exit timing
-* Risk management decisions
-* Possible emotional or impulsive trading behavior
-* What worked well in the trade
+### 2. Open the project folder
 
-### How it works
+Extract the files if you downloaded a ZIP, then open the project folder in a terminal or any code editor like VS Code.
 
-1. Select a past trade
-2. Replay the market movement on the chart
-3. Run the AI analysis
-4. Review the feedback and suggestions
+Example:
 
-### Goal of the project
+cd openclaw-trade-replay-coach
 
-The goal is to help traders turn their trading history into a learning tool instead of just a list of wins and losses.
+### 3. Install required packages
 
-### Built for
+This project uses Node.js and npm.
+Run the following command to install all dependencies:
 
-This project was created for the **Binance OpenClaw AI Activity** as an experiment in building AI assistants that help traders improve their decision-making.
+npm install
 
-Demo video and source code are included in this repository.
+This will automatically install everything inside the **node_modules** folder.
+
+### 4. Start the project
+
+After installation is complete, start the development server:
+
+npm start
+
+### 5. Open in browser
+
+Once the server starts, the app will run locally at:
+
+http://localhost:3000
+
+Open that link in your browser to see the project.
+
+### Requirements
+
+Make sure you have these installed:
+
+* Node.js (version 16 or newer)
+* npm
+* A browser like Chrome or Edge
